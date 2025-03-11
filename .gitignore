@@ -1,0 +1,37 @@
+
+---
+
+### **`.gitignore` File for Django + Redis + Python Projects**
+```gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+
+# Django / Python-specific
+*.sqlite3
+db.sqlite3
+*.log
+
+# Environment variables & credentials
+.env
+config/settings_local.py
+
+# Redis data
+dump.rdb
+appendonly.aof
+
+# Ignore compiled Python files
+*.pyo
+*.pyd
+*.pyc
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
