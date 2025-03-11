@@ -77,9 +77,8 @@ python manage.py analytics_service
 ```
 
 ## **📌 Endpoints**
+
 **Method Endpoint Description**
 
-POST /orders/ Create a new order
-GET /orders/<order_id>/ Get the reconstructed state of an order
-
-
+**POST /orders/ Create a new order**
+**GET /orders/<order_id>/ Get the reconstructed state of an order**
